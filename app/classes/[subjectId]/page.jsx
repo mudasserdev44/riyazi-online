@@ -241,10 +241,11 @@ const classSummaries = {
 };
 
 const getClassContent = (subjectId) => {
+    if (typeof subjectId !== "string") return null;
+    if (!subjectId.startsWith("class-")) return null;
+
     const numeric = Number(subjectId.replace("class-", ""));
-    if (!numeric || !subjectsData[numeric]) {
-        return null;
-    }
+    if (!Number.isInteger(numeric) || !subjectsData[numeric]) return null;
 
     return {
         classNumber: numeric,
@@ -260,7 +261,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-    const data = getClassContent(params.subjectId);
+    const subjectId = params?.subjectId;
+    const data = getClassContent(subjectId);
 
     if (!data) {
         return {
@@ -269,20 +271,23 @@ export async function generateMetadata({ params }) {
         };
     }
 
-    const { classNumber, subjects, summary } = data;
+    const { classNumber, summary } = data;
     const label = summary?.label ?? `Class ${classNumber}`;
 
     return buildMetadata({
         title: `${label} Mathematics Subjects & Chapter Tests`,
-        description: summary?.description ?? `${label} mathematics subjects available for practice at Riyazi Online.`,
+        description:
+            summary?.description ??
+            `${label} mathematics subjects available for practice at Riyazi Online.`,
         keywords: summary?.keywords ?? [],
-        path: `/classes/${params.subjectId}`,
+        path: `/classes/${subjectId}`,
     });
 }
 
-export default function SubjectsPage({ params }) {
-    const data = getClassContent(params.subjectId);
 
+export default function SubjectsPage({ params }) {
+    const subjectId = params?.subjectId;
+    const data = getClassContent(subjectId);
     if (!data) {
         notFound();
     }
