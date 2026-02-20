@@ -1,16 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Keep pages as static as possible to reduce edge/server work
   poweredByHeader: false,
   compress: true,
-  // Optimize client bundles
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
   images: {
-    // Use modern formats when available
     formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days CDN cache for optimized images
+    minimumCacheTTL: 60 * 60 * 24 * 30,
   },
   compiler: {
     removeConsole:
