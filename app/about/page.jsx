@@ -95,6 +95,7 @@ export default function AboutPage() {
                                             alt="Riyazi Online team - Syed Mudasser Anayat and educators"
                                             width={600}
                                             height={400}
+                                            sizes="(max-width: 1024px) 100vw, 600px"
                                             className="w-full h-auto"
                                             priority
                                         />
@@ -135,6 +136,7 @@ export default function AboutPage() {
                                                     alt="Syed Mudasser Anayat - Founder of Riyazi Online"
                                                     width={256}
                                                     height={256}
+                                                    sizes="256px"
                                                     className="w-full h-full object-cover"
                                                 />
                                             </div>

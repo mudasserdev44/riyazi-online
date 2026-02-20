@@ -56,6 +56,7 @@ export default function LandingPage () {
                                         alt="Student with books"
                                         width={800} // required
                                         height={500} // required
+                                        sizes="(max-width: 1024px) 100vw, 800px"
                                         className="w-full h-96 object-cover" // kam height
                                         priority
                                     />

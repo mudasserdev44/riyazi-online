@@ -1,6 +1,9 @@
 import { mathFormulas } from "@/utils/data/formulas";
 import { lectures } from "@/utils/data/lectures";
 
+export const dynamic = "force-static";
+export const revalidate = 60 * 60 * 24; // cache sitemap for 1 day
+
 export default function sitemap() {
   const baseUrl = "https://www.riyazi.online";
   const classSlugs = ["class-9", "class-10", "class-11", "class-12"];
