@@ -21,7 +21,7 @@ const MCQsClient = () => {
     const classLabel = "Class 11";
     const subject = "Mathematics";
     const unitLabel = "Unit 1";
-    const unitTitle = "Number System";
+    const unitTitle = "Complex Numbers";
     const boardName = "Punjab Board";
     const academicYear = "2025-2026";
 
@@ -36,7 +36,7 @@ const MCQsClient = () => {
     ];
 
     const relatedUnits = [
-        { label: "Unit 1 – Number System", href: "/mcqs/class-11-mcqs-unit-1", active: true },
+        { label: "Unit 1 – Complex Numbers", href: "/mcqs/class-11-mcqs-unit-1", active: true },
         { label: "Unit 2 – Sets & Functions", href: "/mcqs/class-11-mcqs-unit-2", active: false },
         { label: "Unit 3 – Matrices", href: "/mcqs/class-11-mcqs-unit-3", active: false },
         { label: "Unit 4 – Quadratic Equations", href: "/mcqs/class-11-mcqs-unit-4", active: false },
