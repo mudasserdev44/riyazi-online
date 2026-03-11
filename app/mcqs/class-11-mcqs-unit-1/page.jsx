@@ -8,9 +8,9 @@ import MCQsClient from "./Mcqsclient";
 // FULL SEO METADATA
 // ────────────────────────────────────────────────
 export const metadata = {
-    title: "Class 11 Math MCQs Unit 1 | Number System PDF Download – Riyazi Online",
+    title: "Class 11 Math MCQs Unit 1 | Complex Numbers PDF Download |New Syllabus – Riyazi Online",
     description:
-        "Download free Class 11 Math MCQs Unit 1 (Number System) PDF for Punjab Board 2025-2026. " +
+        "Download free Class 11 Math New Syllabus MCQs Unit 1 (Complex Numbers) PDF for Punjab Board 2025-2026. " +
         "Multiple choice questions with answer keys for FSc Part 1 Mathematics exam preparation.",
     keywords: [
         // ── Primary High-Intent Keywords ──
@@ -23,10 +23,10 @@ export const metadata = {
         "fsc part 1 mcqs pdf download free",
 
         // ── Unit-Specific ──
-        "number system mcqs class 11",
-        "class 11 math unit 1 number system mcqs",
-        "11th class number system mcqs with answers",
-        "number system mcqs with answer key pdf",
+        "complex numbers mcqs class 11",
+        "class 11 math unit 1 complex numbers mcqs",
+        "11th class complex numbers mcqs with answers",
+        "complex numbers mcqs with answer key pdf",
 
         // ── Board-Specific ──
         "punjab board class 11 math mcqs",
@@ -52,9 +52,9 @@ export const metadata = {
         "class 11 math mcqs chapter wise pdf",
     ],
     openGraph: {
-        title: "Class 11 Math MCQs Unit 1 – Number System | Free PDF Download",
+        title: "Class 11 Math MCQs Unit 1 – Complex Numbers | Free PDF Download",
         description:
-            "Get free Class 11 Math MCQs for Unit 1 (Number System) as per Punjab Board. " +
+            "Get free Class 11 Math MCQs for Unit 1 (Complex Numbers) as per Punjab Board. " +
             "Download PDF with answer keys for FSc Part 1 exam preparation 2025-2026.",
         url: "https://www.riyazi.online/mcqs/class-11-mcqs-unit-1",
         images: [
@@ -62,7 +62,7 @@ export const metadata = {
                 url: "/og-class11-math-mcqs-unit1.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Class 11 Math MCQs Unit 1 – Number System PDF Download",
+                alt: "Class 11 Math MCQs Unit 1 – Complex Numbers PDF Download",
             },
         ],
         type: "article",
@@ -70,9 +70,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Class 11 Math MCQs Unit 1 – Free PDF Download | Riyazi Online",
+        title: "Class 11 Math New Syllabus 2026 MCQs Unit 1 – Free PDF Download | Riyazi Online",
         description:
-            "Download free Class 11 Math MCQs Unit 1 (Number System) PDF with answer keys. Punjab Board 2025-2026.",
+            "Download free Class 11 Math MCQs Unit 1 (Complex Numbers) PDF with answer keys. Punjab Board 2025-2026.",
         images: ["/og-class11-math-mcqs-unit1.jpg"],
     },
     alternates: {
@@ -100,14 +100,14 @@ export default function MCQsPage() {
         learningResource: {
             "@context": "https://schema.org",
             "@type": "LearningResource",
-            "name": "Class 11 Math MCQs Unit 1 – Number System",
+            "name": "Class 11 Math MCQs Unit 1 – Complex Numbers",
             "description":
-                "Free multiple choice questions (MCQs) for Class 11 Mathematics Unit 1 (Number System) as per Punjab Board curriculum. Includes answer keys for FSc Part 1 exam preparation 2025-2026.",
+                "Free multiple choice questions (MCQs) for Class 11 Mathematics Unit 1 (Complex Numbers) as per Punjab Board curriculum. Includes answer keys for FSc Part 1 exam preparation 2025-2026.",
             "url": "https://www.riyazi.online/mcqs/class-11-mcqs-unit-1",
             "inLanguage": ["en", "ur"],
             "educationalLevel": "Grade 11",
             "learningResourceType": "Practice Problems",
-            "teaches": "Number System, Real Numbers, Complex Numbers",
+            "teaches": "Complex Numbers, Real Numbers, Complex Numbers",
             "isAccessibleForFree": true,
             "license": "https://creativecommons.org/licenses/by-nc/4.0/",
             "provider": {
@@ -117,7 +117,7 @@ export default function MCQsPage() {
             },
             "about": {
                 "@type": "Thing",
-                "name": "Number System",
+                "name": "Complex Numbers",
             },
             "educationalAlignment": {
                 "@type": "AlignmentObject",
@@ -153,7 +153,7 @@ export default function MCQsPage() {
                 {
                     "@type": "ListItem",
                     "position": 4,
-                    "name": "Mathematics Unit 1 – Number System",
+                    "name": "Mathematics Unit 1 – Complex Numbers",
                     "item": "https://www.riyazi.online/mcqs/class-11-mcqs-unit-1",
                 },
             ],
@@ -169,7 +169,7 @@ export default function MCQsPage() {
                     "name": "Where can I download Class 11 Math MCQs Unit 1 PDF for free?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "You can download Class 11 Math MCQs Unit 1 (Number System) PDF for free from Riyazi Online at https://www.riyazi.online/mcqs/class-11-mcqs-unit-1. No signup required.",
+                        "text": "You can download Class 11 Math MCQs Unit 1 (Complex Numbers) PDF for free from Riyazi Online at https://www.riyazi.online/mcqs/class-11-mcqs-unit-1. No signup required.",
                     },
                 },
                 {
@@ -193,7 +193,7 @@ export default function MCQsPage() {
                     "name": "What topics are covered in Class 11 Math Unit 1 MCQs?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Class 11 Math Unit 1 MCQs cover the Number System including real numbers, rational and irrational numbers, complex numbers, and their properties as per Punjab Board FSc Part 1 syllabus.",
+                        "text": "Class 11 Math Unit 1 MCQs cover the Complex Numbers including real numbers, rational and irrational numbers, complex numbers, and their properties as per Punjab Board FSc Part 1 syllabus.",
                     },
                 },
             ],
@@ -203,10 +203,10 @@ export default function MCQsPage() {
         webPage: {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Class 11 Math MCQs Unit 1 – Number System PDF Download",
+            "name": "Class 11 Math MCQs Unit 1 – Complex Numbers PDF Download",
             "url": "https://www.riyazi.online/mcqs/class-11-mcqs-unit-1",
             "description":
-                "Download free Class 11 Math MCQs Unit 1 PDF with answer keys. Punjab Board FSc Part 1 exam preparation 2025-2026.",
+                "Download free Class 11 Math New Book MCQs Unit 1 PDF with answer keys. Punjab Board FSc Part 1 exam preparation 2025-2026.",
             "breadcrumb": {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
